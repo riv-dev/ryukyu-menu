@@ -6,7 +6,7 @@ Before your closing ```<body>``` tag add:<br>
 <script type="text/javascript" src="yourpath/jquery.min.js"></script>
 <script type="text/javascript" src="yourpath/jquery.ryukyu.menu.min.js"></script>
 ```
-## Example
+### Example
 Initialize with:
 ```JavaScript
 $(element).ryukyumenu();
@@ -19,3 +19,14 @@ $(element).ryukyumenu();
 | hamburgerClass  | string  | menu-icon  | add class for toogle menu button  |
 |subHamburgerClass|string|sub-menu-icon|add class for toogle sub menu button|
 |closeButtonClass|string|close-menu-icon|add class for mobile close button|
+
+### Example
+```JavaScript
+$(element).ryukyumenu({
+	addCloseButtonMobile: false,
+	offsetTop: 50,
+	hamburgerClass: 'ryukyu-menu-icon',
+	subHamburgerClass: 'ryukyu-sub-menu-icon',
+	closeButtonClass: 'ryukyu-close-icon'
+});
+```
