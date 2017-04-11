@@ -6,6 +6,37 @@ Before your closing ```<body>``` tag add:<br>
 <script type="text/javascript" src="yourpath/jquery.min.js"></script>
 <script type="text/javascript" src="yourpath/jquery.ryukyu.menu.min.js"></script>
 ```
+Prepare html code like this
+```html
+<ul>
+	<li>
+		<a href="#">Menu 1</a>
+		<ul>
+			<li>
+				<a href="#">Menu 1</a>
+			</li>
+			<li>
+				<a href="#">Menu 2</a>
+			</li>
+			<li>
+				<a href="#">Menu 3</a>
+			</li>
+			<li>
+				<a href="#">Menu 4</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#">Menu 2</a>
+	</li>
+	<li>
+		<a href="#">Menu 3</a>
+	</li>
+	<li>
+		<a href="#">Menu 4</a>
+	</li>
+</ul>
+```
 ### Example
 Initialize with:
 ```JavaScript
