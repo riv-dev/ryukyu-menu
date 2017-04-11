@@ -9,16 +9,16 @@ Before your closing ```<body>``` tag add:<br>
 Prepare html code like this
 ```html
 <ul>
-	<li>
-		<a href="#">Menu 1</a>
-		<ul>
-			<li><a href="#">Menu 1</a></li>
-			<li><a href="#">Menu 1</a></li>
-			<li><a href="#">Menu 1</a></li>
-			<li><a href="#">Menu 1</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Menu 2</a></li>
+ <li>
+  <a href="#">Menu 1</a>
+  <ul>
+   <li><a href="#">Menu 1</a></li>
+   <li><a href="#">Menu 1</a></li>
+   <li><a href="#">Menu 1</a></li>
+   <li><a href="#">Menu 1</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Menu 2</a></li>
 </ul>
 ```
 ### Example
