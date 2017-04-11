@@ -8,7 +8,7 @@ Before your closing ```<body>``` tag add:<br>
 ```
 Prepare html code like this
 ```html
-<ul>
+<ul class="element">
  <li>
   <a href="#">Menu 1</a>
   <ul>
@@ -24,7 +24,7 @@ Prepare html code like this
 ### Example
 Initialize with:
 ```JavaScript
-$(element).ryukyumenu();
+$('.element').ryukyumenu();
 ```
 ## Options
 | Option  |Type   | Default  | Description  |
